@@ -52,7 +52,6 @@ a:hover {
 .about-me {
     height: 150px;
     width: 100%;
-    margin-bottom: 25px;
     background-color: cornflowerblue;
     display: inline-block;
     border-style: solid;
@@ -71,10 +70,25 @@ a:hover {
     padding-top: 20px;
 }
 
+
+/* main section of page, showing my work */
 .work {
     width: 100%;
     display: inline-block;
     padding-bottom: 20px;
     background-color:aliceblue;
 }
+
+.prework {
+    padding: 50px;
+}
+.prework img {
+    max-height: 400px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: auto;
+}
+
 
