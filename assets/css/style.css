@@ -80,15 +80,46 @@ a:hover {
 }
 
 .prework {
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    
 }
 .prework img {
     max-height: 400px;
-    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
+    max-width: 100%;
     height: auto;
+}
+.prework-caption {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 
+.challenge1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+.challenge1 img {
+    max-height: 800px;
+    max-width: 100%;
+    float: right;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: auto;
+    display: block;
+}
+
+.tbd {
+    padding:50px;
+}
+.tbd img {
+    float: left;
+    display: block;
+}
