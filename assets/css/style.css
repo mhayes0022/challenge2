@@ -67,10 +67,11 @@ a:hover {
     img {
         max-width: 130px;
         display: inline-block;
-        padding-right: 25px;
+        margin-right: 25px;
         right: 0px;
-        margin-top: -45px;
+        margin-top: -60px;
         position: absolute;
+        border: 5px solid black;
     }
 }
 .about-me h2 {
@@ -97,25 +98,27 @@ a:hover {
     padding-bottom: 25px;
 }
 .prework img {
-    max-height: 600px;
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    height: auto;
+    position: relative;
+    float: center;
     display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    /*max-height: 600px;
+    margin-right: auto;
+    margin-left: auto;*/
 }
 .prework:hover p {
-    top: 8px;
-    left: 16px;
+    position: absolute;
     font-size: 24px;
     color: navy;
+    left: 0px;
+    padding-left: 50px;
+    bottom: -201px;
+    
 }
 
-/*.prework-caption {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}*/
+
 
 /* section for the challenge1 application image and link */
 .challenge1 {
@@ -123,33 +126,42 @@ a:hover {
     padding-bottom: 25px;
 }
 .challenge1 img {
+    /*padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;*/
+    padding-right: 50px;
     max-height: 800px;
     max-width: 100%;
-    padding-right: 50px;
-    padding-bottom: 25px;
     height: auto;
-    float: right;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    
 }
 .challenge1:hover p{
-    bottom: 8px;
-    right: 16px;
-    font-size: 30px;
-    color: navy;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 0px;
+    padding-right:60px;
+    padding-top: 25px;
+
 }
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 
 /* section that is intentionally left blank for future projects */
 .tbd {
-    padding:50px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 100%;
 }
 .tbd img {
     position: relative;
-    float: left;
     display: block;
-    text-align: center;
-    width: 100%;
     max-width: 500px;
     height: auto;
 }
@@ -157,6 +169,13 @@ a:hover {
     position: absolute;
     font-size: 24px;
     color: coral;
+    left: 0px;
+    padding-left: 50px;
+    text-align: center;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
 
