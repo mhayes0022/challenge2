@@ -78,7 +78,7 @@ a:hover {
     font-size: 15px;
     padding-left: 30px;
     padding-top: 2px;
-    padding-right: 170px;
+    padding-right: 180px;
     padding-bottom: 10px;
     /*max-width: 700px;
     position: relative;*/
@@ -93,11 +93,6 @@ a:hover {
     margin-top: 20px;
     /*max-width:520px;*/
 }
-@media screen and (max-width: 500px) {
-    .textAboutMe {
-      flex-direction: column;
-    }
-  }
 
 
 
@@ -126,38 +121,41 @@ a:hover {
     margin-left: auto;
 }
 .prework:hover p {
-    position: absolute;
     font-size: 24px;
     color: navy;
-    left: 0px;
+    position: absolute;
+    /*left: 0px;
     padding-left: 50px;
-    margin-top: -20px;
+    margin-top: -20px;*/
 }
 
 
 /* section for the challenge1 application image and link */
-.challenge1 {
-    /*padding-top: 25px;
+ /*.challenge1 {
+   padding-top: 25px;
     padding-bottom: 25px;
-    display: flex;*/
-}
+    display: flex;
+}*/
 .challenge1 img {
     padding-right: 20px;
     max-height: 800px;
     height: auto;
-    display: block;
+    display: flex;
     /*position: relative;
     max-width: 100%;*/
     
 }
 .challenge1:hover p{
-    font-size: 25px;
-    color: white;
+    
     /*position: absolute;
     right: 0px;
     padding-right:60px;
     padding-top: 25px;*/
 
+}
+#challenge1-text:hover {
+    font-size: 25px;
+    color: white;
 }
 .float-right {
     float: right;
@@ -167,20 +165,24 @@ a:hover {
 
 /* section that is intentionally left blank for future projects */
 .tbd {
-    /*margin-left: 20px;
+    /*
     padding: 20px;
     width: 20%;
-    height: 100%;*/
     display: flex;
+    margin-right: 20px;
+    height: 100%;*/
 }
 .tbd img {
     float: left;
     display: flex;
-    max-width: 500px;
-    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 20px;
     
-    /*height: auto;
+    /*
+    max-width: 800px;
     position: relative;*/
 }
 #coming-soon {
@@ -191,7 +193,7 @@ a:hover {
     padding-left: 40px;
     padding-top: 25px;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
     .tbd {
       clear: right;
      
