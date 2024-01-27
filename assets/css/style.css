@@ -108,13 +108,15 @@ a:hover {
 /* section for the prework application image and link */
 .prework {
     padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .prework img {
+    /*
     position: relative;
     display: block;
+    */
     max-width: 100%;
     height: auto;
     margin-right: auto;
@@ -131,33 +133,31 @@ a:hover {
 
 
 /* section for the challenge1 application image and link */
- /*.challenge1 {
-   padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-}*/
+ .challenge1 {
+    padding-top:20px;
+   
+}
 .challenge1 img {
-    padding-right: 20px;
-    padding-left: 20px;
     max-height: 1000px;
     max-width: 100%;
-    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
     /*position: relative;
+    display: block;
     height: auto;
     max-width: 100%;*/
     
 }
-.challenge1:hover p{
-    
-    /*position: absolute;
+/*.challenge1 p{
     right: 0px;
-    padding-right:60px;
-    padding-top: 25px;*/
-
-}
-#challenge1-text:hover {
+}*/
+.challenge1:hover p {
+    color:lightsalmon;
     font-size: 25px;
-    color: white;
+    position: absolute;
+    right: 0px;
+    padding-right: 40px;
+    padding-top: 6px;
 }
 .float-right {
     float: right;
