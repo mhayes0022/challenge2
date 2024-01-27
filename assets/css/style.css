@@ -50,44 +50,54 @@ a:hover {
 
 /* section about me */
 .about-me {
-    /*height: 150px;*/
-    height: auto;
-    width: 100%;
     background-color: cornflowerblue;
-    display: inline-block;
+    border-color: darkslategrey;
     border-style: solid;
     border-width: 5px;
-    border-color: darkslategrey;
-    position: relative;
-    p {
-        margin-left: 30px;
-        margin-top: 2px;
-        margin-right: 20px;
-        padding-bottom: 10px;
-        max-width: 700px;
-        position: relative;
-        font-size: 15px;
-        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    }
-    img {
-        max-width: 127px;
-        float: right;
-        margin-right: 25px;
-        margin-bottom: 10px;
-        margin-top: -50px;
-        /*right: 0px;
-        position: absolute;
-        margin-right: 25px;
-        margin-top: -122px;*/
-        display: block;
-        border: 5px solid black;
-    }
+    /*height: 150px;
+    position: relative;*/
+    /*height: auto;
+    width: 100%;
+    display: inline-block;*/
 }
+.profilePic {
+    border: 5px solid black;
+    max-width: 150px;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    /*/////right: 0px;
+    position: absolute;
+    margin-right: 25px;
+    display: block;
+    margin-top: -122px;/////*/
+}
+.textAboutMe {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-right: 170px;
+    padding-bottom: 10px;
+    /*max-width: 700px;
+    position: relative;*/
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .about-me h2 {
     margin-left: 15px;
     margin-top: 20px;
-    max-width:520px;
+    /*max-width:520px;*/
 }
+@media screen and (max-width: 500px) {
+    .textAboutMe {
+      flex-direction: column;
+    }
+  }
 
 
 
@@ -129,6 +139,7 @@ a:hover {
 .challenge1 {
     padding-top: 25px;
     padding-bottom: 25px;
+    display: flex;
 }
 .challenge1 img {
     padding-right: 50px;
@@ -160,6 +171,7 @@ a:hover {
     padding: 20px;
     width: 20%;
     height: 100%;
+    display: flex;
 }
 .tbd img {
     position: relative;
@@ -179,6 +191,18 @@ a:hover {
     float: left;
     margin-right: 25px;
 }
+
+
+@media screen and (min-width: 500px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    .challenge1 {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    .tbd {
+      order: 2;
+    }
+  }
 
 
 
