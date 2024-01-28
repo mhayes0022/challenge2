@@ -14,18 +14,18 @@ body{
     padding-right: 20px;
     padding-left: 20px;
     width: 100%;
+    display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: navy;
     color:aliceblue;
-    display: inline-block;
 }
 .header h1{
+    padding-bottom: 10px;
     display: inline-block;
     font-size:50px;
-    padding-bottom: 10px;
 }
 
-/* links in header */
+/* links in header to sections of the page titled 'work', 'about me', 'contact me', and 'resume'. */
 .header nav{
     padding-top:20px;
     padding-right: 20px;
@@ -35,8 +35,8 @@ body{
         list-style-type: none;
     }
     ul li {
-        display: inline-block;
         padding-left: 25px;
+        display: inline-block;
     }
 }
 a {
@@ -48,40 +48,28 @@ a:hover {
 }
 
 
-/* section about me */
+/* section of the page giving background about me */
 .about-me {
-    background-color: cornflowerblue;
-    border-color: darkslategrey;
     border-style: solid;
     border-width: 5px;
-    /*height: 150px;
-    position: relative;*/
-    /*height: auto;
-    width: 100%;
-    display: inline-block;*/
+    border-color: darkslategrey;
+    background-color: cornflowerblue;
 }
 .profilePic {
-    border: 5px solid black;
-    max-width: 150px;
     float: right;
+    margin-top: -50px;
     margin-right: 25px;
     margin-bottom: 10px;
-    margin-top: -50px;
-    /*/////right: 0px;
-    position: absolute;
-    margin-right: 25px;
-    display: block;
-    margin-top: -122px;/////*/
+    max-width: 150px;
+    border: 5px solid black;
 }
 .textAboutMe {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    padding-left: 30px;
     padding-top: 2px;
     padding-right: 180px;
+    padding-left: 30px;
     padding-bottom: 10px;
-    /*max-width: 700px;
-    position: relative;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
 .clearfix::after {
     content: "";
@@ -89,75 +77,58 @@ a:hover {
     display: table;
   }
 .about-me h2 {
-    margin-left: 15px;
     margin-top: 20px;
-    /*max-width:520px;*/
+    margin-left: 15px;
 }
 
 
 
 /* main section of page, showing my work */
 .work {
-    width: 100%;
     display: inline-block;
     padding-bottom: 20px;
+    width: 100%;
     background-color:aliceblue;
 }
 
 
-/* section for the prework application image and link */
+/* subsection of the 'work' section, showing the prework application image and link */
 .prework {
     padding-top: 50px;
-    margin-bottom: 25px;
     padding-right: 50px;
     padding-left: 50px;
+    margin-bottom: 25px;
 }
 .prework img {
-    /*
-    position: relative;
-    display: block;
-    */
-    max-width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
 }
 .prework:hover p {
+    position: absolute;
     font-size: 24px;
     color: navy;
-    position: absolute;
-    /*left: 0px;
-    padding-left: 50px;
-    margin-top: -20px;*/
 }
 
 
-/* section for the challenge1 application image and link */
+/* subsection of the 'work' section, showing the challenge1 application image and link */
  .challenge1 {
-    padding-top:20px;
-   
+    padding-top:20px; 
 }
 .challenge1 img {
     max-height: 1000px;
-    max-width: 100%;
     padding-right: 20px;
     padding-left: 20px;
-    /*position: relative;
-    display: block;
-    height: auto;
-    max-width: 100%;*/
-    
+    max-width: 100%;
 }
-/*.challenge1 p{
-    right: 0px;
-}*/
 .challenge1:hover p {
-    color:lightsalmon;
-    font-size: 25px;
     position: absolute;
+    padding-top: 6px;
     right: 0px;
     padding-right: 40px;
-    padding-top: 6px;
+    font-size: 25px;
+    color:lightsalmon;
 }
 .float-right {
     float: right;
@@ -165,58 +136,46 @@ a:hover {
 }
 
 
-/* section that is intentionally left blank for future projects */
-.tbd {
-    /*
-    padding: 20px;
-    width: 20%;
-    display: flex;
-    margin-right: 20px;
-    height: 100%;*/
-}
+/* subsection of the 'work' section. There is a placeholder image which will be replaced with a future project */
 .tbd img {
-    float: left;
     display: flex;
-    max-width: 100%;
     height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 20px;
-    
-    /*
-    max-width: 800px;
-    position: relative;*/
+    padding-right: 20px;
+    float: left;
+    padding-left: 20px;
+    max-width: 100%;
 }
 #coming-soon {
     position: absolute;
-    font-size: 24px;
-    color: coral;
+    padding-top: 25px;
     left: 0px;
     padding-left: 40px;
-    padding-top: 25px;
+    font-size: 24px;
+    color: coral;
 }
 @media screen and (max-width: 1180px) {
     .tbd {
       clear: right;
-     
     }
-  }
+}
 
 
 
-/* section for resume */
+
+/* this section will contain my resume. It is currently blank. */
 .resume {
-    width: 100%;
-    height: 150px;
     display: inline-block;
+    height: 150px;
     padding-bottom: 20px;
+    width: 100%;
     background-color:cornflowerblue;
     border-style: solid;
     border-width: 5px;
     border-color: darkslategrey;
     p {
-        padding-left: 50px;
         padding-top:2px;
+        padding-left: 50px;
         font-size: 15px;
         font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     }
@@ -229,13 +188,13 @@ footer {
     background-color:midnightblue;
 }
 
-/* contact me section and ways to do so */
+/* This is the 'contact me' section and will include links to contact me in various ways. Currently there are no links. */
 .contact-me {
+    display: inline-block;
     padding: 20px;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:aliceblue;
-    display: inline-block;
 }
 .contact-me h3 {
     font-size: 24px;
