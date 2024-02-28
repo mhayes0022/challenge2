@@ -9,7 +9,7 @@ Below this is the 'work' section of the page. The first third is dedicated to th
 Below the 'work' section is the 'resume' section. Like the 'about me' section, this is currently blank. At the very bottom of the page is a footer with the 'contact me' section. It currently reads: "Email", "Phone number" and "Other?". I have not attached my personal information to these options yet. Obviously the 'other?' option will also be replaced.
 
 ## Website Link
-
+https://mhayes0022.github.io/challenge2/
 
 ## Website Screenshot
 ![My Portfolio header](https://github.com/mhayes0022/challenge2/assets/153241703/0e0b3eea-cfbb-45f3-835e-2428698a1dd4)
