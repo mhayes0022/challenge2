@@ -12,6 +12,11 @@ Below the 'work' section is the 'resume' section. Like the 'about me' section, t
 
 
 ## Website Screenshot
+![My Portfolio header](https://github.com/mhayes0022/challenge2/assets/153241703/0e0b3eea-cfbb-45f3-835e-2428698a1dd4)
+![My Portfolio work](https://github.com/mhayes0022/challenge2/assets/153241703/32d5bd62-5c5b-4819-b5a8-8a0b7456c796)
+![My Portfolio footer](https://github.com/mhayes0022/challenge2/assets/153241703/30f3a031-da36-4f59-995f-6535d66e2f4f)
+
+
 
 ## Credits
 All of the code was written by me. However, a tutor through the University of Minnesota provided very helpful feedback on convincing the different image elements on the page to resize to different screen sizes while not overlapping.
